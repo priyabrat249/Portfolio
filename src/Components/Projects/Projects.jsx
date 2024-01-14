@@ -50,7 +50,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://travelbuddy-priyabrat.netlify.app/home"
+                    href="https://travelbuddy-priyabrat.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
