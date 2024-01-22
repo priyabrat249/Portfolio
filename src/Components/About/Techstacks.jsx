@@ -1,6 +1,8 @@
 import React from "react";
 import "./Techstacks.css";
 import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { IoLogoFirebase,IoLogoCss3 } from "react-icons/io5";
+
 import {
   SiRedux,
   SiHtml5,
@@ -36,10 +38,7 @@ export const Techstacks = () => {
             <SiPython />
             <h5>Python</h5>
           </div>
-          <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
-          </div>
+          
           <div>
             <DiCss3 />
             <h5>CSS</h5>
@@ -73,6 +72,10 @@ export const Techstacks = () => {
           <div>
             <SiGit />
             <h5>Git</h5>
+          </div>
+          <div>
+            <IoLogoFirebase />
+            <h5>Firebase</h5>
           </div>
         </div>
       </div>
