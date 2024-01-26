@@ -6,7 +6,7 @@ import { IoLogoFirebase,IoLogoCss3 } from "react-icons/io5";
 import travelbuddy from "../../assets/travelbuddy.png";
 import carrierhunt from "../../assets/carrierhunt.png";
 import bird from "../../assets/bird.png";
-import voiceify from "../../assets/Voiceify.png";
+import cinewave from "../../assets/cinewave.png"
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -35,25 +35,26 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={bird}
-                    alt="Bird"
+                    src={cinewave}
+                    alt="cinewave"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Bird Chat-App</h2>
+                <h2>Cinewave</h2>
                 <p>
-                Developed an interactive Chat web app ,featuring user‐friendly
-login and registration ,realtime communication,image sharing
-and search function.exposed to Firebase Authentication, database, storage.Done using ReactJS , Firebase , SCSS
+                Developed a responsive movie browsing website with lists,
+search functionality, and movie details. Added a user‐friendly dark mode option.Utilized React Hooks like useState to manage multiple states,
+useEffect for performing side effects, and custom hooks like useFetch to retrieve data from the TMDB Api.
                 </p>
                 <div>
                   <FaReact/>
-                  <IoLogoFirebase/>
+                  <SiTailwindcss/>
+                  
                 </div>
                 <div>
                   <a
-                    href="https://bird-chat.netlify.app/"
+                    href="https://cinewave-tmdb.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -62,7 +63,7 @@ and search function.exposed to Firebase Authentication, database, storage.Done u
                     </span>
                   </a>
                   <a
-                    href="https://github.com/priyabrat249/Bird-Chat-app"
+                    href="https://github.com/priyabrat249"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,7 +75,6 @@ and search function.exposed to Firebase Authentication, database, storage.Done u
               </div>
             </div>
           </div>
-          
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -127,6 +127,52 @@ express and mongoDB
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src={bird}
+                    alt="Bird"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Bird Chat-App</h2>
+                <p>
+                Developed an interactive Chat web app ,featuring user‐friendly
+login and registration ,realtime communication,image sharing
+and search function.exposed to Firebase Authentication, database, storage.Done using ReactJS , Firebase.
+                </p>
+                <div>
+                  <FaReact/>
+                  <IoLogoFirebase/>
+                </div>
+                <div>
+                  <a
+                    href="https://bird-chat.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/priyabrat249/Bird-Chat-app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src={carrierhunt}
                     alt="CarrierHunt"
                   />
@@ -156,51 +202,6 @@ the HomePage, It shows the available Jobs.
                   </a>
                   <a
                     href="https://github.com/priyabrat249/Carrier-Hunt/tree/master/client"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src={voiceify}
-                    alt="voiceify"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Voiceify</h2>
-                <p>
-                This JavaScript code sets up a web page where users can input text into a textarea, select a voice from a dropdown menu, and convert the entered text into speech. 
-                </p>
-                <div>
-                  <SiJavascript/>
-                  <SiHtml5/>
-                  <IoLogoCss3/>
-                  
-                </div>
-                <div>
-                  <a
-                    href="https://voiceify.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/priyabrat249/CONVERT-TEXT-TO-SPEECH"
                     target="_blank"
                     rel="noreferrer"
                   >
